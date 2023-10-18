@@ -1,4 +1,1 @@
-hi
-hello
-i
-g
+print("hello world")
