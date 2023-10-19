@@ -23,4 +23,6 @@ def floodfill(inputboard: List[str], old: str, new: str, x: int, y: int) -> List
     return inputboard
 
 modifiedboard = floodfill(inputboard=board.copy(), old=".", new="~", x=5, y=12)
-modifiedboard
+
+for a in modifiedboard:
+    print(a)
